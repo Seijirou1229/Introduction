@@ -1,3 +1,5 @@
 # Introduction
-This repository is for practice of HTML and CSS.
-I will keep updating this repository.
+- This repository is for practice purpose.
+-  I made a website for introducing myself.
+-   I plan on updating this website every time something occurs to me.
+**So stay tuned !**
