@@ -66,6 +66,10 @@ header a:hover {
     color: yellow;
 }
 
+.menu-icon{
+    display:none;
+}
+
 
 
 main{
