@@ -1,5 +1,6 @@
 @media (max-width: 1000px) {
-    header {
+
+    header{
         height: 90px;
     }
 
@@ -30,12 +31,7 @@
     }
 
     #home {
-        height: 400px;
         padding-top: 100px;
-    }
-
-    #skills {
-        height: 600px;
     }
 
     .skill-card {
@@ -55,23 +51,12 @@
     }
 
 
-    #about{
-        height:550px;
-    }
     .image-myface {
         float:right;
         width: 40%;
         margin-left: 15px;
     }
 
-    #contact{
-        height:260px;
-    }
-
-
-    footer{
-        width:102%;
-    }
 
     footer h1{
         font-size:18px;
@@ -83,12 +68,13 @@
 }
 
 @media (max-width: 670px) {
-    .header-right-container {
-        display: none;
+
+    header{
+        height:80px;
     }
 
-    header {
-        height: 80px;
+    .header-right-container {
+        display: none;
     }
 
     header h1 {
@@ -118,20 +104,32 @@
         line-height: 1.4;
     }
 
-    #skills {
-        height: 640px;
-    }
-
-
-    #about {
-        height: 600px;
-    }
     .image-myface {
         width: 50%;
     }
 
+}
 
-    #contact{
-        height:230px;
+@media (max-width:500px) {
+    header{
+        height:70px;
     }
+    
+    header h1 {
+        font-size: 30px;
+    }
+
+    header p {
+        font-size: 10px;
+        margin: 3px;
+    }
+
+    .menu-icon {
+        display: block;
+        float: right;
+        margin-right: 10px;
+        margin-top: 10px;
+        font-size: 35px;
+    }
+
 }
